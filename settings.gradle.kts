@@ -1,3 +1,5 @@
+@file:Suppress("UnstableApiUsage")
+
 pluginManagement {
     repositories {
         google {
@@ -16,6 +18,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = uri("https://repo.incode.com/artifactory/libs-incode-welcome")
+            credentials {
+                username = "upayments"
+                password = "kFx1gbAmYKch7vEs"
+            }
+        }
+        maven { url = uri("https://jitpack.io") }
     }
 }
 

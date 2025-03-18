@@ -18,3 +18,6 @@ val PrimaryButtonBkg = Color(0xFF00FFF0)
 val PrimaryForeground = Color(0xFF21285A)
 val SecondaryForeground = Color(0xFFFFFFFF)
 val AppStrongAccent = Color(0xFFA600FF)
+
+val MainAppColor = Color(0xFFA600FF)
+val AppMidGray = Color(0xFF5C5C5C)
